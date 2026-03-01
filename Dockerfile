@@ -1,6 +1,6 @@
 FROM  almalinux:8
 MAINTAINER ratnakarbabu.raavi@gmail.com
-RUN yum install -y httpd \
+RUN apt install -y httpd \
  zip\
  unzip
 COPY photogenic.zip /var/www/html/
